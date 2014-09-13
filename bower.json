@@ -1,0 +1,28 @@
+{
+  "name": "hashtagcsulbsigweb",
+  "version": "0.1.0",
+  "homepage": "https://github.com/csulbsigweb/hashtagcsulbsigweb",
+  "authors": [
+    "Jake Schmitz",
+    "David Nuon"
+  ],
+  "description": "an app that does hashtag stuff",
+  "main": "app/js/app.js",
+  "keywords": [
+    "angular",
+    "hashtag"
+  ],
+  "license": "WTFPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.24"
+  }
+}
