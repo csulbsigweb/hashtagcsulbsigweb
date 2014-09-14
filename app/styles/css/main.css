@@ -1,0 +1,29 @@
+/**
+ * Include this file early in your Sass project to
+ * get access to Solarized colors and functions.
+ *
+ * Adapted from the outstanding work by Ethan Schoonover:
+ * http://ethanschoonover.com/solarized
+*/
+body {
+  background-color: #fdf6e3;
+  color: #657b83; }
+
+ul {
+  list-style-type: none; }
+
+.card {
+  width: 306px;
+  height: 406pxx;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: black 2px 2px 5px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -4,17 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <title>hashtagcsulbsigweb</title>
+  <link rel="stylesheet" href="styles/css/main.css">
 </head>
 
 <body ng-app="hashtag">
   <div "container" ng-controller="InstaControl">
-    <ul class="list-unstyled">
-      <li ng-repeat="p in pics">
-        <a href="{{p.link}}" target="_blank">
-          <img ng-src="{{p.images.low_resolution.url}}">
-        </a>
-      </li>
-    </ul>
+    <div ng-repeat="p in pics" class="card">
+      <a href="{{p.link}}" target="_blank">
+        <img ng-src="{{p.images.low_resolution.url}}">
+      </a>
+    </div>
   </div>
 
   <script src="bower_components/angular/angular.min.js"></script>

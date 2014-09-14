@@ -1,0 +1,23 @@
+@import "bourbon/bourbon";
+@import "solarized";
+
+body {
+  @include solarized-light();
+}
+
+ul {
+  list-style-type: none;
+}
+
+.card {
+  width: 306px;
+  height: 406pxx;
+  padding: 15px;
+  @include border-top-radius(5px);
+  @include border-bottom-radius(5px);
+  @include border-left-radius(5px);
+  @include border-right-radius(5px);
+  box-shadow: black 2px 2px 5px;
+}
+
+

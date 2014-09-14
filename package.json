@@ -1,0 +1,28 @@
+{
+  "name": "hashtagcsulbsigweb",
+  "version": "0.1.0",
+  "description": "an angular app that searches for # csulbsigweb",
+  "main": "app/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csulbsigweb/hashtagcsulbsigweb.git"
+  },
+  "keywords": [
+    "angular",
+    "hashtag"
+  ],
+  "author": "Jake Schmitz",
+  "license": "wtfpl",
+  "bugs": {
+    "url": "https://github.com/csulbsigweb/hashtagcsulbsigweb/issues"
+  },
+  "homepage": "https://github.com/csulbsigweb/hashtagcsulbsigweb",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-sass": "^0.7.3"
+  }
+}
