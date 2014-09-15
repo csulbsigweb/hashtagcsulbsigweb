@@ -14,7 +14,7 @@
     "angular",
     "hashtag"
   ],
-  "author": "Jake Schmitz",
+  "authors": ["Jake Schmitz", "David Nuon"]
   "license": "wtfpl",
   "bugs": {
     "url": "https://github.com/csulbsigweb/hashtagcsulbsigweb/issues"
