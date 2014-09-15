@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /**
  * Include this file early in your Sass project to
  * get access to Solarized colors and functions.
@@ -12,18 +17,24 @@ body {
 ul {
   list-style-type: none; }
 
-.card {
+.pic {
   width: 306px;
-  height: 406pxx;
-  padding: 15px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: black 2px 2px 5px; }
+  height: 306px;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 20px; }
+
+.pic-contain {
+  position: relative; }
+
+.span-3 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .span-3:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=main.css.map */

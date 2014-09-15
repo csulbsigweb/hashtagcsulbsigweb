@@ -9,10 +9,14 @@
 
 <body ng-app="hashtag">
   <div "container" ng-controller="InstaControl">
-    <div ng-repeat="p in pics" class="card">
-      <a href="{{p.link}}" target="_blank">
-        <img ng-src="{{p.images.low_resolution.url}}">
-      </a>
+    <div ng-repeat="p in pics" class="span-3">
+      <div class="pic">
+        <div class="pic-contain">
+          <a href="{{p.link}}" target="_blank">
+            <img ng-src="{{p.images.low_resolution.url}}">
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 

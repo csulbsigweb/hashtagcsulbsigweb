@@ -1,4 +1,5 @@
 @import "bourbon/bourbon";
+@import "neat/neat";
 @import "solarized";
 
 body {
@@ -9,15 +10,21 @@ ul {
   list-style-type: none;
 }
 
-.card {
+
+.pic {
   width: 306px;
-  height: 406pxx;
-  padding: 15px;
-  @include border-top-radius(5px);
-  @include border-bottom-radius(5px);
-  @include border-left-radius(5px);
-  @include border-right-radius(5px);
-  box-shadow: black 2px 2px 5px;
+  height: 306px;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 20px;
 }
 
+.pic-contain {
+  position: relative;
+}
 
+.span-3 {
+  @include span-columns(3);
+}
