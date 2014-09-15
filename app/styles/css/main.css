@@ -37,4 +37,25 @@ ul {
   .span-3:last-child {
     margin-right: 0; }
 
+.block-contain {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .block-contain:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.block {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .block:last-child {
+    margin-right: 0; }
+  .block:nth-child(3n) {
+    margin-right: 0; }
+  .block:nth-child(3n+1) {
+    clear: left; }
+
 /*# sourceMappingURL=main.css.map */

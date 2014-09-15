@@ -28,3 +28,12 @@ ul {
 .span-3 {
   @include span-columns(3);
 }
+
+.block-contain {
+  @include outer-container;
+}
+
+.block {
+  @include span-columns(3);
+  @include omega(3n);
+}
