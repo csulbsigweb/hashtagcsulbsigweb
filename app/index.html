@@ -3,22 +3,26 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>hashtagcsulbsigweb</title>
+  <title>#csulbsigweb</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/css/main.css">
 </head>
 
 <body ng-app="hashtag">
-  <div class="block-contain" ng-controller="InstaControl">
-    <div ng-repeat="p in pics" class="block">
-      <div class="pic">
-        <div class="pic-contain">
-          <a href="{{p.link}}" target="_blank">
-            <img ng-src="{{p.images.low_resolution.url}}">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+
+  <hashtag-gallery 
+    hashtag="csulbsigweb"
+    class="fluid-container holder"
+    instagram-key="36c08dbf4dc549d3b2f6ea5551dba2e1">
+    
+    <div class="col-md-3 pic" >
+        <a href="{{image.link}}" target="_blank">
+          <img style="width:100%;" ng-src="{{image.images.low_resolution.url}}">
+        </a>
+    </div>    
+
+  </hashtag-gallery>
+
 
   <script src="bower_components/angular/angular.min.js"></script>
   <script src="js/app.js"></script>

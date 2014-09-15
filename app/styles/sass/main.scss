@@ -12,13 +12,18 @@ ul {
 
 
 .pic {
-  width: 306px;
-  height: 306px;
-  border: 1px solid #c0c0c0;
   border-radius: 3px;
-  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.1);
   text-align: left;
   margin-bottom: 20px;
+
+  img {
+    box-shadow: rgba(0,0,0,.4) 0px 2px 3px;
+  }
+
+}
+
+.holder {
+  margin-top:20px;
 }
 
 .pic-contain {
