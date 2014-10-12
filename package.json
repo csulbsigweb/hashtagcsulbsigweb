@@ -1,8 +1,15 @@
 {
   "name": "hashtagcsulbsigweb",
   "version": "0.1.0",
-  "description": "an angular app that searches for # csulbsigweb",
-  "main": "app/js/app.js",
+  "description": "an agular app that does hashtag stuff",
+  "main": "./app/js/app.js",
+  "dependencies": {
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp": "^3.8.8"
+  },
+  "devDependencies": {
+    "gulp-connect": "^2.0.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,15 +21,10 @@
     "angular",
     "hashtag"
   ],
-  "authors": ["Jake Schmitz", "David Nuon"]
-  "license": "wtfpl",
+  "author": "Jake Schmitz, David Nuon",
+  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/csulbsigweb/hashtagcsulbsigweb/issues"
   },
-  "homepage": "https://github.com/csulbsigweb/hashtagcsulbsigweb",
-  "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-ruby-sass": "^0.7.1",
-    "gulp-sass": "^0.7.3"
-  }
+  "homepage": "https://github.com/csulbsigweb/hashtagcsulbsigweb"
 }
